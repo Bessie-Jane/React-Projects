@@ -1,0 +1,46 @@
+.calculator-container {
+    background-color: rgb(211, 211, 211);
+    margin: auto;
+    width: 30%;
+    padding: 10px;
+    position: relative;
+    top: 5rem;
+}
+
+.screen {
+    height: 15vh;
+    width: 100%;
+    border-radius: 3px;
+    background-color: #fff;
+    text-align: right;
+    -webkit-box-shadow: 2px 2px 18px 0px rgba(150, 153, 153, 0.67);
+    -moz-box-shadow: 2px 2px 18px 0px rgba(138, 138, 138, 0.67);
+    box-shadow: 2px 2px 18px 0px rgba(143, 144, 144, 0.67);
+}
+
+.button-container {
+    margin-top: 1rem;
+    background-color: rgb(255, 255, 255);
+    padding: 10px 10px;
+    display: flex;
+}
+
+.numButton{
+    padding: 20px 30px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border: unset;
+}
+
+.equate-button {
+    padding: 20px 70px;
+    background-color: black;
+    color: white;
+    border: unset;
+    border-radius: 5px;
+    margin-bottom: 15px;
+   
+}
